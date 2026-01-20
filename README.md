@@ -22,7 +22,7 @@ Each file represents **one day of practice**, covering specific SQL concepts.
 ---
 
 ## 🎯 Goal
-To become **job-ready in SQL for Data Analytics roles** and crack internships/full-time opportunities.
+To become **Excellent in SQL for Data Analytics roles**.
 
 ---
 
@@ -34,8 +34,7 @@ To become **job-ready in SQL for Data Analytics roles** and crack internships/fu
 ---
 
 ## 🤝 Connect With Me
-- **LinkedIn:** https://www.linkedin.com/in/your-link-here
-- **GitHub:** https://github.com/your-username
+- **LinkedIn:** www.linkedin.com/in/anamika04sharma
 
 ---
 
