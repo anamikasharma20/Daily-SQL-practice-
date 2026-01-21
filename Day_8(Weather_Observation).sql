@@ -1,0 +1,1 @@
+Select round(Sum(LAT_N),2) as Lat_n, Round(Sum(LONG_W),2) from STATION;
