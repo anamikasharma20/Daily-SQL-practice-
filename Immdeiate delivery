@@ -1,0 +1,19 @@
+with imm as (
+    select 
+        *,
+        MIN(order_date) as first_order 
+    from Delivery 
+    group by customer_id
+)
+select round (
+    avg(
+        b.order_date=b.customer_pref_delivery_date
+    )*100 
+    ,2
+) as immediate_percentage
+from imm as a
+join Delivery as b 
+    on a.customer_id=b.customer_id
+and a.first_order=b.order_date    
+
+;         
