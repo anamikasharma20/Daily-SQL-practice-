@@ -12,5 +12,5 @@ join Manager as m
      on s_m.company_code=m.company_code
 join Employee as e
     on m.company_Code=e.company_Code
-
-order by company_code;                  
+group by c.company_code,c.founder
+order by c.company_code;                  
